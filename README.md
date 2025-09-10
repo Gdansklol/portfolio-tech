@@ -1,5 +1,63 @@
 #  React Portfolio
 
+# Responsiv CRUD-applikation med tokenhantering
+
+##  Live Demo
+
+- 🔗 [Frontend på Vercel](https://crud-book-angular.vercel.app)  
+- 🔗 [Swagger (API-dokumentation)](https://dotnet-backend-production-9189.up.railway.app/swagger)  
+- 🔗 [GET alla böcker](https://dotnet-backend-production-9189.up.railway.app/api/books)
+
+> Frontend är kopplad till ett REST API byggt med .NET 9 och deployat via Railway.
+
+---
+
+##  Mitt arbetssätt
+
+-  Lärde mig Angular och .NET från grunden
+-  Iterativ utveckling: små steg, test tidigt
+-  Testade varje komponent responsivt (mobil, tablet, desktop)
+-  Refaktorering och förbättringar genom feedback
+-  Enkel mock-backend fallback vid API-nedtid
+
+---
+
+##  Funktioner
+
+-  Full CRUD (GET, POST, PUT, DELETE)
+-  Lokal tokenhantering via `localStorage,sessionStorage`
+-  Lista och formulär för böcker
+-  Responsiv UI med Bootstrap & Font Awesome
+-  Routing via Angular Router
+
+---
+## 🛠️ Teknisk stack
+
+| Layer       | Teknik                         |
+|-------------|---------------------------------|
+| Frontend    | Angular 18, TypeScript          |
+| Backend     | .NET 9 REST API (mock-data)     |
+| Hosting     | Vercel (frontend), Railway (API)|
+| UI          | Bootstrap 5, Font Awesome       |
+
+
+---
+
+### Lärdomar & Utmaningar
+- Första gången med Angular och .NET – brant men lärorik kurva
+
+- Skapa fungerande API + Swagger + mock-backend
+
+- Hantera responsivitet och forms med validering
+
+###  Framtida förbättringar
+- JWT-autentisering (planeras)
+
+- MongoDB-anslutning i produktion
+
+
+<hr>
+
 Hej! 👋  
 Välkommen till min personliga portfolio byggd med **React + Vite**.
 
